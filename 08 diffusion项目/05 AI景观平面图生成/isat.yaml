@@ -1,0 +1,23 @@
+label:
+- color: '#000000'
+  name: __background__
+- color: '#000000'
+  name: 场地内部
+- color: '#ffffff'
+  name: 外部环境
+- color: '#ffaaff'
+  name: 铺装
+- color: '#ffaa00'
+  name: 广场
+- color: '#b4c4c8'
+  name: 建筑
+- color: '#00aaff'
+  name: 水景
+- color: '#ffff00'
+  name: 小品
+- color: '#00aa00'
+  name: 植物
+- color: '#aaff00'
+  name: 草地
+- color: '#aaaaff'
+  name: 活动场地
