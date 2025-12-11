@@ -17,8 +17,8 @@ client = OpenAI(
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
 )
 
-file_path = r"E:\Desktop\data\resize_image"
-text_path = r"E:\Desktop\data\text"
+file_path = r"E:\Desktop\data\edit"
+text_path = r"E:\Desktop\data\E_text"
 
 for filename in os.listdir(file_path):
     image_path = os.path.join(file_path, filename)
@@ -37,7 +37,7 @@ for filename in os.listdir(file_path):
                             "url": f"{'data:image/png;base64,' + base64_img}",
                         },
                     },
-                    {"type": "text", "text": "请用一句话描述这个景观设计方案平面图，将铺装、广场、建筑、水景、小品、草地、乔木等设计要素布局描述出来。"},
+                    {"type": "text", "text": "请用一句话描述这个景观设计方案平面图的图像编辑图像，白色是场地外部、紫色是铺装、橘色是广场、灰色是建筑、蓝色是水景、黄色是小品、浅绿色是草地、深绿色是乔木等。"},
                 ],
             },
         ],
