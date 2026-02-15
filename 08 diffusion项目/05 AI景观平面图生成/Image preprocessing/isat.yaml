@@ -1,7 +1,5 @@
 label:
 - color: '#000000'
-  name: __background__
-- color: '#000000'
   name: 场地内部
 - color: '#ffffff'
   name: 外部环境

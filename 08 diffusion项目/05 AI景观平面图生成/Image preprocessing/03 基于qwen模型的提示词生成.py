@@ -18,7 +18,7 @@ client = OpenAI(
 )
 
 file_path = r"E:\Desktop\data\resize_image"
-text_path = r"E:\Desktop\data\text"
+text_path = r"E:\Desktop\aotoBZ"
 
 for filename in os.listdir(file_path):
     image_path = os.path.join(file_path, filename)
